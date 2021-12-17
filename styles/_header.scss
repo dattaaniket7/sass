@@ -1,7 +1,11 @@
+@import './variables';
+
 header {
 	background: lightblue;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	color: $textColor;
 	button {
 		background: $primaryBtn;
