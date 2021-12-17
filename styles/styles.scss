@@ -2,5 +2,5 @@
 @import './variables';
 
 .contact {
-	@include flexCenter();
+	@include flexCenter(row, blue);
 }
