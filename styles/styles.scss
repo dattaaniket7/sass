@@ -8,8 +8,8 @@ header {
 	color: $textColor;
 	button {
 		background: $primaryBtn;
-		&:hover {
-			background: red;
+		&::after {
+			content: "Hello";
 		}
 	}
 }
